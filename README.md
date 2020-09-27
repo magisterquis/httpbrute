@@ -74,3 +74,12 @@ A fairly large number of HTTP requests can be made in parallel, controlled with
 webservers.  This should be avoided.  The practial upper limit is probably
 somewhere around `ulimit -n`, though it may be less (because stdio) or more
 (because HTTP/2).
+
+Output
+------
+Paths which returned a non-404 status will be logged to stdout.  Everything
+else goes to stderr.  Something like the following is probably not a bad idea:
+
+```sh
+httpbrute <flags> | tee httpbrute.out
+```
