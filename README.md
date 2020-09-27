@@ -1,3 +1,8 @@
+Please note that httpbrute is still in active development and the interface is
+==============================================================================
+subject to change.
+==================
+
 HTTP Bruteforcer
 ================
 HTTPBrute is a simple HTTP path brute-forcer written to look fairly un-hacker
