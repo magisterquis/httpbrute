@@ -1,7 +1,5 @@
-Please note that httpbrute is still in active development and the interface is
-==============================================================================
-subject to change.
-==================
+~Please note that httpbrute is still in active development and the interface is subject to change.~
+===================================================================================================
 
 HTTP Bruteforcer
 ================
